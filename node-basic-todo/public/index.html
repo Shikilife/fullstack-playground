@@ -1,0 +1,22 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>前端呼叫 Node.js API</title>
+</head>
+<body>
+  <h2>API 互動練習</h2>
+  <input type="text" id="name" placeholder="請輸入名字">
+  <button id="btn">打招呼</button>
+  <div id="result"></div>
+  <script>
+    document.getElementById('btn').onclick = async () => {
+      const name = document.getElementById('name').value;
+      const res = await fetch(`/api/hello?name=${encodeURIComponent(name)}`);
+      const data = await res.json();
+      document.getElementById('result').innerText = data.message;
+    }
+  </script>
+</body>
+</html>
