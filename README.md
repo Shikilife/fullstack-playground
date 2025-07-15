@@ -49,6 +49,17 @@ npm run dev
 * `DELETE /api/todos/:id`      刪除
 
 ---
+## 🏆 專案成果與內容
+
+* 這個專案從零開始，完整實作了：
+* Node.js + TypeScript + Express：後端 RESTful API，負責待辦清單資料的存取、編輯、刪除
+* SQLite 資料庫：用來永久保存待辦事項，每次重啟服務資料都不會消失
+* 前端 Vue 3 + Vite：用現代前端技術打造互動式待辦清單介面，可查詢、新增、勾選完成、刪除
+* API 串接（前後端分離）：前端透過 fetch/axios 與後端 RESTful API 串接，實現完整 CRUD
+* CORS 處理：實作跨來源請求處理，確保前後端能安全溝通
+* TypeScript 導入：後端全程以 TypeScript 強化型別安全與開發體驗
+
+----
 
 ## 🖼️ 網頁預覽
 
@@ -84,10 +95,10 @@ fullstack-playground/
 ---
 
 ## 學習紀錄
-https://hackmd.io/@Shiki9029/HyPuA_ZUle
-https://hackmd.io/@Shiki9029/BJnXbFWUel
-https://hackmd.io/@Shiki9029/rJopLYZ8lg
-https://hackmd.io/@Shiki9029/By26wGMUxg
-https://hackmd.io/@Shiki9029/rJ1KypMLge
-https://hackmd.io/@Shiki9029/S1x_9CfLll
-https://hackmd.io/@Shiki9029/Byp2wk7Lgl
+* https://hackmd.io/@Shiki9029/HyPuA_ZUle
+* https://hackmd.io/@Shiki9029/BJnXbFWUel
+* https://hackmd.io/@Shiki9029/rJopLYZ8lg
+* https://hackmd.io/@Shiki9029/By26wGMUxg
+* https://hackmd.io/@Shiki9029/rJ1KypMLge
+* https://hackmd.io/@Shiki9029/S1x_9CfLll
+* https://hackmd.io/@Shiki9029/Byp2wk7Lgl
